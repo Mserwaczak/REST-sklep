@@ -1,0 +1,26 @@
+{
+  "name": "sklep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Mserwaczak/REST-sklep",
+  "author": "Michal Serwaczak",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node .",
+    "watch": "nodemon --inspect ."
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.12",
+    "objection": "^2.2.3",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
